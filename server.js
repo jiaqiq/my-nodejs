@@ -1,10 +1,7 @@
-﻿//����httpģ��
+﻿
 var http = require("http");
-//����������
 var hostName = '127.0.0.1';
-//���ö˿�
 var port = 8080;
-//��������
 var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
